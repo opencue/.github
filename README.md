@@ -31,6 +31,10 @@ Everything in this org is open source and MIT-licensed.
       <h4>🛡️ <a href="https://github.com/opencue/gitguardex">GitGuardex</a></h4>
       <p>Keep parallel coding agents from overwriting each other’s work with isolated Git worktrees, file locks, and pull-request checks.</p>
       <p>
+        <a href="https://guardextutorial.com/">Tutorial</a> ·
+        <code>npm i -g @imdeadpool/guardex</code>
+      </p>
+      <p>
         <img alt="Stars" src="https://img.shields.io/github/stars/opencue/gitguardex?style=flat-square&amp;logo=github&amp;color=0891b2&amp;labelColor=1c1917">
         <img alt="Language" src="https://img.shields.io/github/languages/top/opencue/gitguardex?style=flat-square&amp;labelColor=1c1917">
       </p>
