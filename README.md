@@ -28,60 +28,31 @@ Everything in this org is open source and MIT-licensed.
 <table>
   <tr>
     <td valign="top" width="33%">
-      <h4>🛡️ <a href="https://github.com/recodeee/gitguardex">GitGuardex</a></h4>
-      <p>Run many Codex &amp; Claude agents in parallel without them overwriting each other. Isolated worktrees, file locks, PR-only merges. Auto-wires Oh My Codex, Oh My Claude, OpenSpec, and Caveman into every worktree.</p>
+      <h4>🛡️ <a href="https://github.com/opencue/gitguardex">GitGuardex</a></h4>
+      <p>Keep parallel coding agents from overwriting each other’s work with isolated Git worktrees, file locks, and pull-request checks.</p>
       <p>
         <a href="https://guardextutorial.com/">Tutorial</a> ·
         <code>npm i -g @imdeadpool/guardex</code>
       </p>
       <p>
-        <img alt="Stars" src="https://img.shields.io/github/stars/recodeee/gitguardex?style=flat-square&logo=github&color=0891b2&labelColor=1c1917">
-        <img alt="Language" src="https://img.shields.io/github/languages/top/recodeee/gitguardex?style=flat-square&labelColor=1c1917">
+        <img alt="Stars" src="https://img.shields.io/github/stars/opencue/gitguardex?style=flat-square&amp;logo=github&amp;color=0891b2&amp;labelColor=1c1917">
+        <img alt="Language" src="https://img.shields.io/github/languages/top/opencue/gitguardex?style=flat-square&amp;labelColor=1c1917">
       </p>
     </td>
     <td valign="top" width="33%">
-      <h4>🐜 <a href="https://github.com/recodeee/colony">Colony</a></h4>
-      <p>Local-first coordination substrate for fleets of coding agents. A SQLite store at <code>~/.colony</code> that holds claims, handoffs, plans, and memory — so Claude Code, Codex, Cursor, Gemini CLI, and OpenCode read a compact ~400-token state instead of replaying 30k-token repo handoffs.</p>
+      <h4>🌐 <a href="https://github.com/opencue/agenticbrowser">AgenticBrowser</a></h4>
+      <p>Give Codex or Claude Code a browser for automation that can reuse your signed-in sessions without taking over your browser window.</p>
       <p>
-        <img alt="Stars" src="https://img.shields.io/github/stars/recodeee/colony?style=flat-square&logo=github&color=0891b2&labelColor=1c1917">
-        <img alt="Language" src="https://img.shields.io/github/languages/top/recodeee/colony?style=flat-square&labelColor=1c1917">
+        <img alt="Stars" src="https://img.shields.io/github/stars/opencue/agenticbrowser?style=flat-square&amp;logo=github&amp;color=0891b2&amp;labelColor=1c1917">
+        <img alt="Language" src="https://img.shields.io/github/languages/top/opencue/agenticbrowser?style=flat-square&amp;labelColor=1c1917">
       </p>
     </td>
     <td valign="top" width="33%">
-      <h4>🚁 <a href="https://github.com/recodeee/codex-fleetui">Codex FleetUI</a></h4>
-      <p>Multi-account Codex worker pool with tmux dashboards, a force-claim dispatcher, and auto-rescue supervisors. Steer dozens of parallel Codex sessions from one terminal.</p>
+      <h4>🎴 <a href="https://github.com/opencue/cuecards">Cue</a></h4>
+      <p>Choose which skills, MCP servers, and plugins Claude Code or Codex loads for each project before the agent starts.</p>
       <p>
-        <img alt="Stars" src="https://img.shields.io/github/stars/recodeee/codex-fleetui?style=flat-square&logo=github&color=0891b2&labelColor=1c1917">
-        <img alt="Language" src="https://img.shields.io/github/languages/top/recodeee/codex-fleetui?style=flat-square&labelColor=1c1917">
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="33%">
-      <h4>🔑 <a href="https://github.com/recodeee/authmux">authmux</a></h4>
-      <p>Multi-identity helper for the Codex CLI. Auto-detects <code>codex login</code> and snapshots the account so you can list, switch, and rotate every account you've ever authed with one command.</p>
-      <p>
-        <code>npm i -g @imdeadpool/codex-account-switcher</code>
-      </p>
-      <p>
-        <img alt="Stars" src="https://img.shields.io/github/stars/recodeee/authmux?style=flat-square&logo=github&color=0891b2&labelColor=1c1917">
-        <img alt="Language" src="https://img.shields.io/github/languages/top/recodeee/authmux?style=flat-square&labelColor=1c1917">
-      </p>
-    </td>
-    <td valign="top" width="33%">
-      <h4>🧠 <a href="https://github.com/recodeee/claude-memory-manager-daemon">Claude Memory Manager</a></h4>
-      <p>Long-running Claude Code agent that tends the file-based memory lane in a real-time tick loop — keeps user, feedback, project, and reference memories tidy and de-duplicated across sessions.</p>
-      <p>
-        <img alt="Stars" src="https://img.shields.io/github/stars/recodeee/claude-memory-manager-daemon?style=flat-square&logo=github&color=0891b2&labelColor=1c1917">
-        <img alt="Language" src="https://img.shields.io/github/languages/top/recodeee/claude-memory-manager-daemon?style=flat-square&labelColor=1c1917">
-      </p>
-    </td>
-    <td valign="top" width="33%">
-      <h4>🧩 <a href="https://github.com/recodeee/claude-integrator">claude-integrator</a></h4>
-      <p>Claude Code / Codex skill that scans <code>examples/</code> for vendored open-source repos, scores them on fit/cost/risk/value with license gates, and drafts OpenSpec integration proposals automatically.</p>
-      <p>
-        <img alt="Stars" src="https://img.shields.io/github/stars/recodeee/claude-integrator?style=flat-square&logo=github&color=0891b2&labelColor=1c1917">
-        <img alt="Language" src="https://img.shields.io/github/languages/top/recodeee/claude-integrator?style=flat-square&labelColor=1c1917">
+        <img alt="Stars" src="https://img.shields.io/github/stars/opencue/cuecards?style=flat-square&amp;logo=github&amp;color=0891b2&amp;labelColor=1c1917">
+        <img alt="Language" src="https://img.shields.io/github/languages/top/opencue/cuecards?style=flat-square&amp;labelColor=1c1917">
       </p>
     </td>
   </tr>
